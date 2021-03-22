@@ -1,0 +1,15 @@
+body{
+  font-family: monospace;
+}
+
+[class*='col-']{
+  border: 1px solid grey;
+}
+
+[class*='col-'] h3{
+  text-align: center;
+}
+
+div.content{
+  background-color: white;
+}
