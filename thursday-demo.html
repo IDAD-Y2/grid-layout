@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thursday demo of grids</title>
+    <link href="grid.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Using the grid component in CSS</h1>
+
+
+
+    <!-- below is the first row -->
+    <div class="grid header-section">
+      <div class="col-1-1">
+        <p>this is a full page width element</p>
+        <p>this is a full page width element</p>
+        <p>this is a full page width element</p>
+        <p>this is a full page width element</p>
+      </div>
+    </div>
+
+    <!-- below is the second row -->
+    <div class="grid middle-section">
+      <div class="col-4-12 mobile-col-4-12">
+        <p>this column occupies one third of the space or 4 out of 12 columns</p>
+      </div>
+      <div class="col-4-12 mobile-col-4-12">
+        <p>this column occupies one third of the space or 4 out of 12 columns</p>
+      </div>
+      <div class="col-4-12 mobile-col-4-12">
+        <p>this column occupies one third of the space or 4 out of 12 columns</p>
+      </div>
+    </div>
+
+    <!-- below here is the third row -->
+    <div class="grid body-section">
+      <div class="col-8-12">
+        <p>this column occupies two thirds of the space or 8 out of 12 columns</p>
+      </div>
+    </div>
+
+    <!-- below is the content of the 4th row -->
+    <div class="grid body-section">
+      <div class="col-3-12 mobile-col-6-12">
+        <p>this bit is 3 of twelve in width and floats left</p>
+      </div>
+      <div class="col-3-12 push-6-12 mobile-col-6-12">
+        <p>this bit is 3 of twelve in width and floats right</p>
+      </div>
+    </div>
+
+    <!-- this will be the 5th row -->
+    <div class="grid body-section">
+      <div class="col-2-12">
+        <p>first bit</p>
+      </div>
+      <div class="col-2-12 push-1-12">
+        <p>second bit</p>
+      </div>
+      <div class="col-2-12 push-1-12">
+        <p>third bit</p>
+      </div>
+      <div class="col-2-12 push-1-12">
+        <p>4th bit</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>

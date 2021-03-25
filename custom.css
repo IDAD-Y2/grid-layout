@@ -13,3 +13,8 @@ body{
 div.content{
   background-color: white;
 }
+
+.header-section, .middle-section, .body-section{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
